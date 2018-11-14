@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:TestRoundedControls2" 
+             x:Class="TestRoundedControls2.MainPage" 
+             xmlns:CustomEntry="clr-namespace:Plugin.RoundedBorderControls;assembly=Plugin.RoundedBorderControls">
+
+    <Label Text="Welcome to Xamarin.Forms!" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+
+    <StackLayout x:Name="stackLayout1">
+        <CustomEntry:RoundedBorderEntry 
+        CornerRadius="18" 
+        BorderThickness="10" 
+        BorderColor="Brown" 
+        Text="TEst"
+	  HorizontalTextAlignment="Center"
+	  FontSize="14.5"
+	  HeightRequest="50"/>
+
+        <CustomEntry:RoundedBorderLabel  
+        CornerRadius="18" 
+        BorderThickness="10" 
+        BorderColor="Brown" 
+        Text="TEst"
+	  HorizontalTextAlignment="Center" 
+	  FontSize="14.5"
+	  HeightRequest="50" VerticalTextAlignment="Center"/>
+
+        <Button Text="button" CornerRadius="18" BorderColor="Brown" BorderWidth="10" HeightRequest="50"/>
+    </StackLayout>
+
+</ContentPage>
