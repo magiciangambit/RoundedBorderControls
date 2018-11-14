@@ -3,6 +3,7 @@
 Rounder Border Entry and Label for Xamarin Android &amp; iOS
 
 This plugin is to ease developer to set border and rounded corner for Entry & Label in xamarin
+For button, you don't need this as button already has properties to support rounded corner and border
 
 Note: All of your projects under a solution must be using Xamarin Forms 2.5.1.527436 or later
 All projects must be using the same version of Xamarin Forms if not, there will be token error
