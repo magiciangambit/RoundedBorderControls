@@ -11,3 +11,4 @@ After installing the plugin into your project from nuget: https://www.nuget.org/
 
 You can directly use the plugin in your XAML pages.
 Take a look at the sample code here on how to use it: 
+https://github.com/magiciangambit/RoundedBorderControls/blob/master/TestRoundedControls2/TestRoundedControls2/MainPage.xaml
